@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F5F1E8"/>
+  <circle cx="1060" cy="70" r="260" fill="#E4572E" opacity="0.12"/>
+  <rect x="72" y="72" width="1056" height="486" fill="none" stroke="#12120E" stroke-opacity="0.18"/>
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#12120E">
+    <text x="108" y="168" font-size="26" letter-spacing="6" fill="#5A594F">PORTFOLIO · 2026</text>
+    <text x="104" y="330" font-size="118" letter-spacing="-3">[Your Name]</text>
+    <text x="108" y="404" font-size="42" fill="#B23A16" font-style="italic">[Your Role]</text>
+    <text x="108" y="486" font-size="26" fill="#5A594F">[Ambiguous problems → shipped, measurable outcomes]</text>
+  </g>
+  <g font-family="'Courier New', monospace" fill="#5A594F" font-size="20" letter-spacing="3">
+    <text x="108" y="530">[CITY, COUNTRY] · [YOU@EMAIL.COM] · [YOUR-DOMAIN.COM]</text>
+  </g>
+  <path d="M0 0h1200v10H0z" fill="#B23A16"/>
+</svg>

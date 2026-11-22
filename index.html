@@ -1,0 +1,779 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[Your Name] — [Your Role] · Portfolio</title>
+<meta name="description" content="[Your Name] is a [Your Role] in [City] who turns ambiguous product problems into shipped experiences — with measurable outcomes. Selected case studies, experience, and contact.">
+<meta name="author" content="[Your Name]">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://[your-domain.com]/">
+<meta name="theme-color" content="#F5F1E8">
+
+<!-- Open Graph / social preview. Replace the domain and export og-image.svg to a 1200×630 PNG for best support. -->
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="[Your Name] — Portfolio">
+<meta property="og:title" content="[Your Name] — [Your Role]">
+<meta property="og:description" content="[Your Role] turning ambiguous product problems into shipped, measurable outcomes. Selected case studies and experience.">
+<meta property="og:url" content="https://[your-domain.com]/">
+<meta property="og:image" content="https://[your-domain.com]/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="[Your Name], [Your Role] — portfolio">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="[Your Name] — [Your Role]">
+<meta name="twitter:description" content="[Your Role] turning ambiguous product problems into shipped, measurable outcomes.">
+<meta name="twitter:image" content="https://[your-domain.com]/assets/og-image.png">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+
+<script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "[Your Name]",
+  "jobTitle": "[Your Role]",
+  "description": "[One-line positioning statement.]",
+  "url": "https://[your-domain.com]/",
+  "email": "mailto:[you@email.com]",
+  "address": { "@type": "PostalAddress", "addressLocality": "[City]", "addressCountry": "[Country]" },
+  "sameAs": [
+    "https://www.linkedin.com/in/[handle]",
+    "https://github.com/[handle]",
+    "https://dribbble.com/[handle]"
+  ],
+  "knowsAbout": ["[Skill 1]", "[Skill 2]", "[Skill 3]", "[Skill 4]"]
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"><span class="progress__bar" id="progressBar"></span></div>
+
+<!-- ============================= HEADER ============================= -->
+<header class="site-header" id="siteHeader">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="#top" aria-label="[Your Name] — back to top">
+      <svg class="brand__mark" viewBox="0 0 32 32" width="30" height="30" aria-hidden="true" focusable="false">
+        <rect x="1" y="1" width="30" height="30" rx="7" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M11 9v14M21 9v14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        <circle cx="16" cy="16" r="2.4" fill="currentColor"/>
+      </svg>
+      <span class="brand__name">[Your Name]</span>
+      <span class="brand__role">[Your Role]</span>
+    </a>
+
+    <nav class="nav" id="primaryNav" aria-label="Primary">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="#about"><span class="nav__num">01</span>About</a></li>
+        <li><a class="nav__link" href="#skills"><span class="nav__num">02</span>Skills</a></li>
+        <li><a class="nav__link" href="#work"><span class="nav__num">03</span>Work</a></li>
+        <li><a class="nav__link" href="#experience"><span class="nav__num">04</span>Experience</a></li>
+        <li><a class="nav__link" href="#testimonials"><span class="nav__num">05</span>Praise</a></li>
+        <li><a class="nav__link" href="#contact"><span class="nav__num">06</span>Contact</a></li>
+      </ul>
+      <a class="nav__resume" href="resume.pdf" download>Résumé <span aria-hidden="true">↓</span></a>
+      <div class="nav__meta">
+        <span class="dot" aria-hidden="true"></span>
+        <span>Available for [role type] roles</span>
+        <a href="mailto:[you@email.com]">[you@email.com]</a>
+      </div>
+    </nav>
+
+    <div class="site-header__actions">
+      <a class="btn btn--sm btn--ghost header-cta" href="#contact">Hire me</a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="primaryNav" aria-label="Open menu">
+        <span class="nav-toggle__bars" aria-hidden="true"><span></span><span></span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============================= HERO ============================= -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="wrap hero__inner">
+
+      <div class="hero__copy">
+        <p class="eyebrow eyebrow--pill">
+          <span class="dot" aria-hidden="true"></span>
+          Available for [full-time / contract] roles
+        </p>
+
+        <h1 class="hero__name" id="hero-title">
+          <span class="line"><span class="line__in">[Your</span></span>
+          <span class="line"><span class="line__in"><em>Name</em>]</span></span>
+        </h1>
+
+        <p class="hero__role">
+          <span>[Your Role]</span>
+          <span class="hero__slash" aria-hidden="true">/</span>
+          <span>[Specialism, e.g. Design Systems]</span>
+        </p>
+
+        <p class="hero__tagline">
+          I help [target users] turn ambiguous problems into shipped products —
+          and I tie every design decision to a <span class="mark">measurable<svg class="mark__svg" viewBox="0 0 220 12" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M2 8.5C46 3.5 92 3 126 4.6c30 1.4 62 3.2 92 1.2" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span> outcome.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#work">
+            View selected work
+            <svg class="icon-arrow" viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" focusable="false"><path d="M4 10h11M10.5 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a class="btn btn--ghost" href="resume.pdf" download>
+            Download résumé <span class="btn__meta">PDF</span>
+          </a>
+        </div>
+
+        <ul class="hero__meta">
+          <li><span class="meta__k">Based in</span><span class="meta__v">[City, Country]</span></li>
+          <li><span class="meta__k">Working</span><span class="meta__v">[Remote / Hybrid]</span></li>
+          <li><span class="meta__k">Experience</span><span class="meta__v">[X]+ years</span></li>
+        </ul>
+      </div>
+
+      <div class="hero__aside">
+        <div class="hero__portrait">
+        <figure class="portrait">
+          <div class="portrait__frame">
+            <span class="portrait__monogram" aria-hidden="true">[YN]</span>
+            <span class="portrait__label">[ Your portrait — 4:5 ]</span>
+            <span class="portrait__grain" aria-hidden="true"></span>
+          </div>
+          <figcaption class="portrait__caption">[City, Country] · [Year]</figcaption>
+        </figure>
+
+        <div class="chip">
+          <span class="chip__k">Last shipped</span>
+          <span class="chip__v">[Project Title]</span>
+          <span class="chip__m">[Month Year]</span>
+        </div>
+
+        <!-- Signature element: rotating availability seal -->
+        <div class="seal" aria-hidden="true">
+          <svg class="seal__ring" viewBox="0 0 120 120">
+            <defs>
+              <path id="sealPath" d="M60,60 m-42,0 a42,42 0 1,1 84,0 a42,42 0 1,1 -84,0"/>
+            </defs>
+            <text class="seal__text">
+              <textPath href="#sealPath" startOffset="0">OPEN TO WORK · [YOUR ROLE] · 2026 · </textPath>
+            </text>
+          </svg>
+          <span class="seal__center">✳</span>
+        </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true">
+      <span>Scroll</span><span class="hero__scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- ============================= KEYWORD MARQUEE ============================= -->
+  <div class="marquee" role="group" aria-label="Core skills">
+    <div class="marquee__track" id="marqueeTrack">
+      <span class="marquee__group">
+        <span>[Skill One]</span><span class="marquee__dot" aria-hidden="true">✳</span>
+        <span>[Skill Two]</span><span class="marquee__dot" aria-hidden="true">✳</span>
+        <span>[Skill Three]</span><span class="marquee__dot" aria-hidden="true">✳</span>
+        <span>[Skill Four]</span><span class="marquee__dot" aria-hidden="true">✳</span>
+        <span>[Skill Five]</span><span class="marquee__dot" aria-hidden="true">✳</span>
+        <span>[Skill Six]</span><span class="marquee__dot" aria-hidden="true">✳</span>
+      </span>
+      <span class="marquee__group" aria-hidden="true">
+        <span>[Skill One]</span><span class="marquee__dot">✳</span>
+        <span>[Skill Two]</span><span class="marquee__dot">✳</span>
+        <span>[Skill Three]</span><span class="marquee__dot">✳</span>
+        <span>[Skill Four]</span><span class="marquee__dot">✳</span>
+        <span>[Skill Five]</span><span class="marquee__dot">✳</span>
+        <span>[Skill Six]</span><span class="marquee__dot">✳</span>
+      </span>
+    </div>
+  </div>
+
+  <!-- ============================= ABOUT ============================= -->
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">01 — About</p>
+        <h2 class="section-title" id="about-title">Design that <em>earns</em> its place.</h2>
+        <p class="section-lead">No portfolio theatre. Just the work, the thinking behind it, and the numbers that followed.</p>
+      </div>
+
+      <div class="about__grid">
+        <div class="about__body" data-reveal>
+          <p class="lead">
+            I'm [Your Name], a [Your Role] with [X]+ years of experience shipping [product type]
+            for [audience, e.g. B2B SaaS teams and their customers].
+          </p>
+          <p>
+            I work where design meets delivery: framing the problem with research,
+            prototyping fast enough to learn, and partnering with engineers until the
+            thing is actually live. My favourite compliment from a colleague is
+            <em>"you made the hard parts obvious."</em>
+          </p>
+          <p>
+            Before [Current Company] I [previous context — e.g. built the design system at [Company],
+            led [initiative], or moved from [previous field] into product design].
+            I care about accessibility, clear writing, and shipping on a schedule you can defend.
+          </p>
+
+          <ul class="facts" aria-label="Quick facts">
+            <li><span class="facts__k">Based in</span><span class="facts__dots" aria-hidden="true"></span><span class="facts__v">[City, Country]</span></li>
+            <li><span class="facts__k">Focus</span><span class="facts__dots" aria-hidden="true"></span><span class="facts__v">[Product design · systems]</span></li>
+            <li><span class="facts__k">Currently</span><span class="facts__dots" aria-hidden="true"></span><span class="facts__v">[Your Role] at [Company]</span></li>
+            <li><span class="facts__k">Open to</span><span class="facts__dots" aria-hidden="true"></span><span class="facts__v">[Full-time · Remote/Hybrid]</span></li>
+          </ul>
+
+          <p class="about__links">
+            <a class="link-arrow" href="https://www.linkedin.com/in/[handle]" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a class="link-arrow" href="https://github.com/[handle]" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            <a class="link-arrow" href="mailto:[you@email.com]">Email <span aria-hidden="true">↗</span></a>
+          </p>
+        </div>
+
+        <aside class="about__aside" data-reveal style="--i:2">
+          <figure class="portrait portrait--small">
+            <div class="portrait__frame portrait__frame--alt">
+              <span class="portrait__monogram" aria-hidden="true">[YN]</span>
+              <span class="portrait__label">[ Portrait or workspace photo ]</span>
+            </div>
+            <figcaption class="portrait__caption">[Your Name] · [Your Role]</figcaption>
+          </figure>
+
+          <blockquote class="pullquote">
+            <p>“[A short, specific sentence about how you work — the line a hiring manager repeats in the debrief.]”</p>
+          </blockquote>
+        </aside>
+      </div>
+
+      <ul class="stats" aria-label="Career highlights">
+        <li class="stat" data-reveal>
+          <span class="stat__num">[X]+</span>
+          <span class="stat__label">Years shipping digital products</span>
+        </li>
+        <li class="stat" data-reveal style="--i:1">
+          <span class="stat__num">[XX]</span>
+          <span class="stat__label">Products launched end to end</span>
+        </li>
+        <li class="stat" data-reveal style="--i:2">
+          <span class="stat__num">[XX%]</span>
+          <span class="stat__label">Best measured lift on a core metric</span>
+        </li>
+        <li class="stat" data-reveal style="--i:3">
+          <span class="stat__num">[X]</span>
+          <span class="stat__label">Teams led or mentored</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============================= SKILLS ============================= -->
+  <section class="section section--tint" id="skills" aria-labelledby="skills-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">02 — Skills</p>
+        <h2 class="section-title" id="skills-title">Capabilities, not <em>buzzwords</em>.</h2>
+        <p class="section-lead">Each line below is something I've shipped with, not just read about. Ask me for the story behind any of them.</p>
+      </div>
+
+      <div class="skills">
+        <article class="skill" data-reveal>
+          <h3 class="skill__title"><span class="skill__num" aria-hidden="true">01</span> Design</h3>
+          <ul class="skill__list">
+            <li>[Product &amp; UX design]</li>
+            <li>[Interaction design]</li>
+            <li>[Design systems]</li>
+            <li>[Prototyping &amp; testing]</li>
+            <li>[Information architecture]</li>
+          </ul>
+        </article>
+
+        <article class="skill" data-reveal style="--i:1">
+          <h3 class="skill__title"><span class="skill__num" aria-hidden="true">02</span> Build</h3>
+          <ul class="skill__list">
+            <li>[HTML &amp; modern CSS]</li>
+            <li>[JavaScript / TypeScript]</li>
+            <li>[React / Next.js]</li>
+            <li>[Accessibility (WCAG 2.2 AA)]</li>
+            <li>[Performance budgets]</li>
+          </ul>
+        </article>
+
+        <article class="skill" data-reveal style="--i:2">
+          <h3 class="skill__title"><span class="skill__num" aria-hidden="true">03</span> Research</h3>
+          <ul class="skill__list">
+            <li>[Usability testing]</li>
+            <li>[Interviews &amp; synthesis]</li>
+            <li>[Analytics &amp; funnels]</li>
+            <li>[A/B experimentation]</li>
+            <li>[Jobs-to-be-done framing]</li>
+          </ul>
+        </article>
+
+        <article class="skill" data-reveal style="--i:3">
+          <h3 class="skill__title"><span class="skill__num" aria-hidden="true">04</span> Lead</h3>
+          <ul class="skill__list">
+            <li>[Workshop facilitation]</li>
+            <li>[Stakeholder communication]</li>
+            <li>[Roadmapping with PM]</li>
+            <li>[Mentoring &amp; critique]</li>
+            <li>[Design ops &amp; process]</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="toolkit" data-reveal>
+        <p class="toolkit__label">Daily toolkit</p>
+        <ul class="toolkit__list">
+          <li>Figma</li><li>[Tool]</li><li>Linear</li><li>GitHub</li>
+          <li>Storybook</li><li>Vercel</li><li>[Analytics tool]</li><li>Notion</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= WORK ============================= -->
+  <section class="section" id="work" aria-labelledby="work-title">
+    <div class="wrap">
+      <div class="section-head section-head--split">
+        <div>
+          <p class="eyebrow">03 — Selected work</p>
+          <h2 class="section-title" id="work-title">Case studies with <em>receipts</em>.</h2>
+        </div>
+        <p class="section-lead">Three projects, each with the problem, the decisions, and the outcome. Open a card for the full story — every case study takes under two minutes to read.</p>
+      </div>
+
+      <div class="work-grid">
+
+        <article class="case-card case-card--wide" data-reveal>
+          <div class="case-card__media case-card__media--a" aria-hidden="true">
+            <span class="case-card__media-label">[ Project visual ]</span>
+            <span class="case-card__media-index">01</span>
+            <span class="case-card__media-meta">[Client] · [Year]</span>
+          </div>
+          <div class="case-card__body">
+            <p class="case-card__meta">[Client / Company] <span aria-hidden="true">·</span> [Role] <span aria-hidden="true">·</span> [Year]</p>
+            <h3 class="case-card__title">
+              <button class="case-card__trigger" type="button" data-case="case-01" aria-haspopup="dialog" aria-controls="case-01">
+                [Project Title]
+                <svg class="icon-arrow" viewBox="0 0 20 20" width="20" height="20" aria-hidden="true" focusable="false"><path d="M4 10h11M10.5 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </h3>
+            <p class="case-card__outcome">[Redesigned onboarding around one job-to-be-done; activation rose <strong>[XX%]</strong> in two quarters.]</p>
+            <ul class="tag-list" aria-label="Project disciplines">
+              <li>[UX research]</li><li>[Product design]</li><li>[Design system]</li>
+            </ul>
+            <p class="case-card__cta"><span>Read case study</span> <span class="case-card__read">2 min</span></p>
+          </div>
+        </article>
+
+        <article class="case-card" data-reveal style="--i:1">
+          <div class="case-card__media case-card__media--b" aria-hidden="true">
+            <span class="case-card__media-label">[ Project visual ]</span>
+            <span class="case-card__media-index">02</span>
+            <span class="case-card__media-meta">[Client] · [Year]</span>
+          </div>
+          <div class="case-card__body">
+            <p class="case-card__meta">[Client / Company] <span aria-hidden="true">·</span> [Role] <span aria-hidden="true">·</span> [Year]</p>
+            <h3 class="case-card__title">
+              <button class="case-card__trigger" type="button" data-case="case-02" aria-haspopup="dialog" aria-controls="case-02">
+                [Project Title]
+                <svg class="icon-arrow" viewBox="0 0 20 20" width="20" height="20" aria-hidden="true" focusable="false"><path d="M4 10h11M10.5 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </h3>
+            <p class="case-card__outcome">[Built a [XX]-component design system that cut feature build time by <strong>[XX%]</strong>.]</p>
+            <ul class="tag-list" aria-label="Project disciplines">
+              <li>[Design systems]</li><li>[Front-end]</li><li>[Documentation]</li>
+            </ul>
+            <p class="case-card__cta"><span>Read case study</span> <span class="case-card__read">2 min</span></p>
+          </div>
+        </article>
+
+        <article class="case-card case-card--wide case-card--flip" data-reveal style="--i:2">
+          <div class="case-card__media case-card__media--c" aria-hidden="true">
+            <span class="case-card__media-label">[ Project visual ]</span>
+            <span class="case-card__media-index">03</span>
+            <span class="case-card__media-meta">[Client] · [Year]</span>
+          </div>
+          <div class="case-card__body">
+            <p class="case-card__meta">[Client / Company] <span aria-hidden="true">·</span> [Role] <span aria-hidden="true">·</span> [Year]</p>
+            <h3 class="case-card__title">
+              <button class="case-card__trigger" type="button" data-case="case-03" aria-haspopup="dialog" aria-controls="case-03">
+                [Project Title]
+                <svg class="icon-arrow" viewBox="0 0 20 20" width="20" height="20" aria-hidden="true" focusable="false"><path d="M4 10h11M10.5 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </h3>
+            <p class="case-card__outcome">[Took a manual [process] and shipped a self-serve flow that removed <strong>[XX hrs/month]</strong> of support load.]</p>
+            <ul class="tag-list" aria-label="Project disciplines">
+              <li>[Service design]</li><li>[Prototyping]</li><li>[Ops partnership]</li>
+            </ul>
+            <p class="case-card__cta"><span>Read case study</span> <span class="case-card__read">2 min</span></p>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="work-note" data-reveal>
+        <span class="work-note__k">Also available</span>
+        [Two additional case studies, a writing sample, and a short walkthrough video on request.]
+        <a class="link-arrow" href="#contact">Ask for the full archive <span aria-hidden="true">→</span></a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================= EXPERIENCE ============================= -->
+  <section class="section section--tint" id="experience" aria-labelledby="experience-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">04 — Experience</p>
+        <h2 class="section-title" id="experience-title">Where I've <em>done it</em>.</h2>
+      </div>
+
+      <ol class="timeline">
+        <li class="timeline__item" data-reveal>
+          <p class="timeline__years">[2023] — Present</p>
+          <div class="timeline__body">
+            <h3 class="timeline__role">[Your Role] <span class="timeline__at">at</span> [Company]</h3>
+            <p>[One line on scope: team size, product area, and the outcome you own.]</p>
+            <ul class="timeline__wins">
+              <li>[Shipped [project], lifting [metric] by [XX%].]</li>
+              <li>[Led [initiative] across [X] squads.]</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline__item" data-reveal style="--i:1">
+          <p class="timeline__years">[2021] — [2023]</p>
+          <div class="timeline__body">
+            <h3 class="timeline__role">[Previous Role] <span class="timeline__at">at</span> [Company]</h3>
+            <p>[One line on scope and the product you owned.]</p>
+            <ul class="timeline__wins">
+              <li>[Shipped [project], lifting [metric] by [XX%].]</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline__item" data-reveal style="--i:2">
+          <p class="timeline__years">[2019] — [2021]</p>
+          <div class="timeline__body">
+            <h3 class="timeline__role">[Earlier Role] <span class="timeline__at">at</span> [Company]</h3>
+            <p>[One line on scope and the product you owned.]</p>
+          </div>
+        </li>
+      </ol>
+
+      <p class="timeline__foot" data-reveal>
+        <a class="btn btn--ghost" href="resume.pdf" download>Full résumé <span class="btn__meta">PDF</span></a>
+        <span class="timeline__note">[Education / certifications, e.g. BSc [Field], [University], [Year]]</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================= TESTIMONIALS ============================= -->
+  <section class="section section--ink" id="testimonials" aria-labelledby="testimonials-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">05 — Praise</p>
+        <h2 class="section-title" id="testimonials-title">What colleagues <em>say</em>.</h2>
+        <p class="section-lead">Unedited quotes from people I've shipped with. References available on request.</p>
+      </div>
+
+      <ul class="quotes">
+        <li class="quote" data-reveal>
+          <blockquote>
+            <p>“[A specific quote about how [Your Name] framed a hard problem and what changed because of it.]”</p>
+          </blockquote>
+          <figure class="quote__by">
+            <span class="quote__avatar" aria-hidden="true">[AB]</span>
+            <figcaption>
+              <span class="quote__name">[Colleague Name]</span>
+              <span class="quote__title">[Title], [Company]</span>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="quote" data-reveal style="--i:1">
+          <blockquote>
+            <p>“[A quote from an engineer or PM about collaboration, clarity, or delivery.]”</p>
+          </blockquote>
+          <figure class="quote__by">
+            <span class="quote__avatar" aria-hidden="true">[CD]</span>
+            <figcaption>
+              <span class="quote__name">[Colleague Name]</span>
+              <span class="quote__title">[Title], [Company]</span>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="quote" data-reveal style="--i:2">
+          <blockquote>
+            <p>“[A quote from a manager about ownership, judgement, or impact.]”</p>
+          </blockquote>
+          <figure class="quote__by">
+            <span class="quote__avatar" aria-hidden="true">[EF]</span>
+            <figcaption>
+              <span class="quote__name">[Colleague Name]</span>
+              <span class="quote__title">[Title], [Company]</span>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============================= CONTACT ============================= -->
+  <section class="section section--contact" id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <div class="contact__grid">
+        <div class="contact__intro">
+          <p class="eyebrow">06 — Contact</p>
+          <h2 class="section-title" id="contact-title">Let's talk about your next <em>hire</em>.</h2>
+          <p class="section-lead">
+            I'm currently open to [role type] roles in [location / remote]. Send a note with the
+            problem your team is trying to solve — I'll reply within [two business days].
+          </p>
+
+          <div class="contact__direct">
+            <p class="contact__k">Email me directly</p>
+            <p class="contact__email-row">
+              <a class="contact__email" href="mailto:[you@email.com]" id="emailLink">[you@email.com]</a>
+              <button class="copy-btn" type="button" id="copyEmail" data-email="[you@email.com]">
+                <svg viewBox="0 0 20 20" width="15" height="15" aria-hidden="true" focusable="false"><rect x="7" y="7" width="9" height="10" rx="1.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12.5 4.5H5.5A1.5 1.5 0 0 0 4 6v8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                <span class="copy-btn__label">Copy</span>
+              </button>
+            </p>
+            <p class="sr-only" role="status" aria-live="polite" id="copyStatus"></p>
+            <p class="contact__alt">Or find me on
+              <a href="https://www.linkedin.com/in/[handle]" target="_blank" rel="noopener noreferrer">LinkedIn</a>,
+              <a href="https://github.com/[handle]" target="_blank" rel="noopener noreferrer">GitHub</a>,
+              <a href="https://dribbble.com/[handle]" target="_blank" rel="noopener noreferrer">Dribbble</a>.
+            </p>
+          </div>
+
+          <div class="contact__availability">
+            <span class="dot" aria-hidden="true"></span>
+            <span>[Available from Month Year] · [Time zone] · [Open to relocation: Yes/No]</span>
+          </div>
+        </div>
+
+        <div class="contact__form-wrap" data-reveal>
+          <!--
+            This form composes an email in the visitor's mail client (no backend needed).
+            To send directly, swap the submit handler for a service such as Formspree,
+            Netlify Forms, or your own endpoint — see README.
+          -->
+          <form class="form" id="contactForm" novalidate>
+            <p class="form__title">Send a message</p>
+
+            <div class="field">
+              <label class="field__label" for="name">Your name</label>
+              <input class="field__input" id="name" name="name" type="text" autocomplete="name" placeholder="[Recruiter / Hiring manager name]" aria-describedby="nameError" required>
+              <p class="field__error" id="nameError" hidden>Please add your name.</p>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="email">Work email</label>
+              <input class="field__input" id="email" name="email" type="email" autocomplete="email" placeholder="[you@company.com]" aria-describedby="emailError" required>
+              <p class="field__error" id="emailError" hidden>Please enter a valid email address.</p>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="message">What are you hiring for?</label>
+              <textarea class="field__input field__input--area" id="message" name="message" rows="4" placeholder="[Role, team, and the problem you're solving]" aria-describedby="messageError" required></textarea>
+              <p class="field__error" id="messageError" hidden>Please add a short message.</p>
+            </div>
+
+            <button class="btn btn--primary btn--block" type="submit">
+              Send message
+              <svg class="icon-arrow" viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" focusable="false"><path d="M4 10h11M10.5 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+
+            <p class="form__note">Opens your email app with the message ready to send. Prefer a form? [Link to your preferred contact form].</p>
+            <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================= FOOTER ============================= -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="site-footer__top">
+      <p class="site-footer__mark">[Your Name]</p>
+      <p class="site-footer__line">[Your Role] · [City, Country] · Available [Month Year]</p>
+      <a class="site-footer__top-link" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+    <div class="site-footer__bottom">
+      <p>© <span id="year">2026</span> [Your Name]. All rights reserved.</p>
+      <p class="site-footer__colophon">Designed &amp; built with HTML, CSS, and vanilla JS · <a href="#top">Ink &amp; Impact</a></p>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================= CASE STUDY DIALOGS ============================= -->
+<dialog class="case-dialog" id="case-01" aria-labelledby="case-01-title" aria-describedby="case-01-lede">
+  <button class="case-dialog__close" type="button" data-close aria-label="Close case study" autofocus>
+    <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" focusable="false"><path d="M5 5l10 10M15 5L5 15" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+  </button>
+
+  <div class="case-dialog__inner">
+    <header class="case-dialog__head">
+      <p class="eyebrow">Case study 01 · [Client / Company] · [Year]</p>
+      <h2 class="case-dialog__title" id="case-01-title">[Project Title]</h2>
+      <p class="case-dialog__lede" id="case-01-lede">[One sentence: the challenge, your role, and the result — written so a recruiter could repeat it.]</p>
+      <ul class="tag-list">
+        <li>[UX research]</li><li>[Product design]</li><li>[Design system]</li><li>[Front-end]</li>
+      </ul>
+    </header>
+
+    <div class="case-dialog__body">
+      <section class="case-block">
+        <h3>The problem</h3>
+        <p>[Describe the business goal and the user problem in plain language. Include the constraint that made it hard — time, legacy code, org politics.]</p>
+      </section>
+
+      <section class="case-block">
+        <h3>What I did</h3>
+        <ol class="steps">
+          <li><strong>[Research.]</strong> [Ran [X] interviews and reviewed [data source]; found [insight].]</li>
+          <li><strong>[Frame.]</strong> [Reframed the problem with [PM/eng] around [job-to-be-done].]</li>
+          <li><strong>[Ship.]</strong> [Prototyped, tested with [X] users, and shipped in [timeframe].]</li>
+          <li><strong>[Iterate.]</strong> [Instrumented the flow and changed [decision] after [evidence].]</li>
+        </ol>
+      </section>
+
+      <section class="case-block">
+        <h3>The outcome</h3>
+        <ul class="ledger">
+          <li><span>[Primary metric]</span><span class="ledger__dots" aria-hidden="true"></span><strong>[+XX%]</strong></li>
+          <li><span>[Secondary metric]</span><span class="ledger__dots" aria-hidden="true"></span><strong>[−XX%]</strong></li>
+          <li><span>[Business result]</span><span class="ledger__dots" aria-hidden="true"></span><strong>[$XXXk]</strong></li>
+        </ul>
+        <p class="case-block__note">[How the result was measured, over what period, and your honest caveat.]</p>
+      </section>
+    </div>
+
+    <footer class="case-dialog__foot">
+      <a class="btn btn--primary" href="#" target="_blank" rel="noopener noreferrer">[View live project] <span aria-hidden="true">↗</span></a>
+      <a class="link-arrow" href="#">[Read the long-form case study] <span aria-hidden="true">→</span></a>
+      <p class="case-dialog__credit">[Role] · [Team size] · [Timeframe]</p>
+    </footer>
+  </div>
+</dialog>
+
+<dialog class="case-dialog" id="case-02" aria-labelledby="case-02-title" aria-describedby="case-02-lede">
+  <button class="case-dialog__close" type="button" data-close aria-label="Close case study" autofocus>
+    <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" focusable="false"><path d="M5 5l10 10M15 5L5 15" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+  </button>
+
+  <div class="case-dialog__inner">
+    <header class="case-dialog__head">
+      <p class="eyebrow">Case study 02 · [Client / Company] · [Year]</p>
+      <h2 class="case-dialog__title" id="case-02-title">[Project Title]</h2>
+      <p class="case-dialog__lede" id="case-02-lede">[One sentence: the challenge, your role, and the result.]</p>
+      <ul class="tag-list">
+        <li>[Design systems]</li><li>[Front-end]</li><li>[Documentation]</li>
+      </ul>
+    </header>
+
+    <div class="case-dialog__body">
+      <section class="case-block">
+        <h3>The problem</h3>
+        <p>[Describe the business goal and the user problem in plain language. Include the constraint that made it hard.]</p>
+      </section>
+
+      <section class="case-block">
+        <h3>What I did</h3>
+        <ol class="steps">
+          <li><strong>[Audit.]</strong> [Catalogued [X] screens and found [X] inconsistent patterns.]</li>
+          <li><strong>[Systemise.]</strong> [Defined tokens, components, and usage rules with engineering.]</li>
+          <li><strong>[Adopt.]</strong> [Migrated [X]% of the product and documented contribution guidelines.]</li>
+        </ol>
+      </section>
+
+      <section class="case-block">
+        <h3>The outcome</h3>
+        <ul class="ledger">
+          <li><span>[Feature build time]</span><span class="ledger__dots" aria-hidden="true"></span><strong>[−XX%]</strong></li>
+          <li><span>[Components in production]</span><span class="ledger__dots" aria-hidden="true"></span><strong>[XX]</strong></li>
+          <li><span>[Accessibility issues resolved]</span><span class="ledger__dots" aria-hidden="true"></span><strong>[XX]</strong></li>
+        </ul>
+        <p class="case-block__note">[How the result was measured, over what period, and your honest caveat.]</p>
+      </section>
+    </div>
+
+    <footer class="case-dialog__foot">
+      <a class="btn btn--primary" href="#" target="_blank" rel="noopener noreferrer">[View the system] <span aria-hidden="true">↗</span></a>
+      <p class="case-dialog__credit">[Role] · [Team size] · [Timeframe]</p>
+    </footer>
+  </div>
+</dialog>
+
+<dialog class="case-dialog" id="case-03" aria-labelledby="case-03-title" aria-describedby="case-03-lede">
+  <button class="case-dialog__close" type="button" data-close aria-label="Close case study" autofocus>
+    <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" focusable="false"><path d="M5 5l10 10M15 5L5 15" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+  </button>
+
+  <div class="case-dialog__inner">
+    <header class="case-dialog__head">
+      <p class="eyebrow">Case study 03 · [Client / Company] · [Year]</p>
+      <h2 class="case-dialog__title" id="case-03-title">[Project Title]</h2>
+      <p class="case-dialog__lede" id="case-03-lede">[One sentence: the challenge, your role, and the result.]</p>
+      <ul class="tag-list">
+        <li>[Service design]</li><li>[Prototyping]</li><li>[Ops partnership]</li>
+      </ul>
+    </header>
+
+    <div class="case-dialog__body">
+      <section class="case-block">
+        <h3>The problem</h3>
+        <p>[Describe the business goal and the user problem in plain language. Include the constraint that made it hard.]</p>
+      </section>
+
+      <section class="case-block">
+        <h3>What I did</h3>
+        <ol class="steps">
+          <li><strong>[Map.]</strong> [Shadowed the manual process and mapped every hand-off.]</li>
+          <li><strong>[Prototype.]</strong> [Tested [X] flow variants with the people doing the work.]</li>
+          <li><strong>[Ship.]</strong> [Launched self-serve in [timeframe] and trained the team.]</li>
+        </ol>
+      </section>
+
+      <section class="case-block">
+        <h3>The outcome</h3>
+        <ul class="ledger">
+          <li><span>[Support hours saved]</span><span class="ledger__dots" aria-hidden="true"></span><strong>[XX hrs/mo]</strong></li>
+          <li><span>[Time to complete]</span><span class="ledger__dots" aria-hidden="true"></span><strong>[−XX%]</strong></li>
+          <li><span>[Adoption in 90 days]</span><span class="ledger__dots" aria-hidden="true"></span><strong>[XX%]</strong></li>
+        </ul>
+        <p class="case-block__note">[How the result was measured, over what period, and your honest caveat.]</p>
+      </section>
+    </div>
+
+    <footer class="case-dialog__foot">
+      <a class="btn btn--primary" href="#" target="_blank" rel="noopener noreferrer">[View the write-up] <span aria-hidden="true">↗</span></a>
+      <p class="case-dialog__credit">[Role] · [Team size] · [Timeframe]</p>
+    </footer>
+  </div>
+</dialog>
+
+<div class="cursor-tag" id="cursorTag" aria-hidden="true">View case <span>→</span></div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
